@@ -1,0 +1,31 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    margin: 2px;
+    position: absolute;
+    border: 1px solid black;
+}
+#d1{
+   top: 10;
+   left: 10;
+z-index: 4 ;
+}
+
+#d2{
+z-index: 3;
+}
+
+#d3{
+    top: 40px;
+    left: 40px;
+}
+#d4{
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+#d5{
+    top: 100px;
+    left: 100px;
+}

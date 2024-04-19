@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 700vh;
+    background-color: #440185;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav{
+    background-color: #440185;
+    color: aliceblue;
+    text-align: center;
+    padding: 2rem;
+    font-size: larger;
+    box-shadow: 1px 4px 7px black;
+    position: sticky;
+    top: 0;
+
+}
+img{
+    width: 100%;
+}
+article{
+    width: 100%;
+    background-color: #2d004c;
+}
+article p{
+    color: aliceblue;
+    max-width: 80%;
+    margin: auto;
+    text-align: start;
+    padding: 2rem;
+}
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: #440185;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 2px 2px 6px 6px white;
+   
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 3.5rem;
+    left: 2rem;
+}
