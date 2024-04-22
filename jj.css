@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background-color: rgb(2, 74, 2);
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+}
+nav{
+    text-align: center;
+    background-color: greenyellow;
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+}
+section{
+    background-color: rgb(119, 189, 119);
+    width: 100%;
+    padding: 2rem;
+}
+p{
+    
+    background-color: pink;
+    max-width: 80%;
+    margin: auto;
+    
+}
+footer{
+    background-color: rgb(2, 36, 2);
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+#logo{
+    position: absolute;
+    top: 52px;
+    left: 43px;
+}
+h4{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+  
+}
